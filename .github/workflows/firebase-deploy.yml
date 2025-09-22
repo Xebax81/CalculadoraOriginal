@@ -267,8 +267,8 @@ jobs:
     - name: Deploy to Firebase Hosting
       uses: FirebaseExtended/action-hosting-deploy@v0
       with:
-        firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CALCULADORA_REACT_TP7 }}
-        projectId: calculadora-react-tp7
+        firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CALCULADORAORIG }}
+        projectId: CalculadoraOrig
         channelId: live
         entryPoint: ./calculadora-react
 
