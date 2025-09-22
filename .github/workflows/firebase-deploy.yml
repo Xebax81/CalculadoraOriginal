@@ -199,7 +199,7 @@ jobs:
   # - Pausa el pipeline hasta que alguien apruebe el despliegue
   # - Permite revisar resultados de tests antes de producción
   # - Implementa governance y control de cambios
-  # 
+  # Algo
   # CONFIGURACIÓN REQUERIDA:
   # 1. Ir a Settings > Environments en GitHub
   # 2. Crear environment "production" 
