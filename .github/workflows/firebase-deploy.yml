@@ -268,7 +268,7 @@ jobs:
       uses: FirebaseExtended/action-hosting-deploy@v0
       with:
         firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CALCULADORAORIG }}
-        projectId: CalculadoraOrig
+        projectId: calculadoraorig
         channelId: live
         entryPoint: ./calculadora-react
 
